@@ -10,8 +10,6 @@ import (
 	"strconv"
 )
 
-var NewBook models.Book
-
 func GetBooks(w http.ResponseWriter, r *http.Request) {
 
 	newBooks := models.GetAllBooks()
